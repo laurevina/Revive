@@ -1,0 +1,24 @@
+<?php
+use PHPUnit\Framework\TestCase;
+
+class ReviveTestClass extends TestCase
+{
+    // Méthode appelée avant chaque test
+    protected function setUp(): void
+    {
+        // Initialisation commune pour les tests
+    }
+
+    // Méthode appelée après chaque test
+    protected function tearDown(): void
+    {
+        // Nettoyage commun après les tests
+    }
+
+    // Méthode de test
+    public function testSomething()
+    {
+        // Votre code de test ici
+        $this->assertTrue(true); // Exemple d'assertion
+    }
+}

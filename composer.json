@@ -1,0 +1,18 @@
+{
+    "name": "hp/z-pint",
+    "description": "Revive",
+    "autoload": {
+        "psr-4": {
+            "Hp\\ZPint\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "laurevina",
+            "email": "laurejackiel@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    }
+}
